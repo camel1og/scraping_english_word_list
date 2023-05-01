@@ -4,7 +4,7 @@
  requests  
  beautifulsoup4
  
-- [x] Scrapingサイトデータを取得
+- [ ] Scrapingサイトデータを取得
 - [ ] csvに書き出す(テスト)
 - [ ] スプレットシートに書き出し
  
