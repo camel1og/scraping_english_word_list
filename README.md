@@ -1,10 +1,10 @@
 # scraping_english_word_list
 
-- [ ] 必要なライブラリをpipインストール(つど更新していく)  
+- [x] 必要なライブラリをpipインストール(つど更新していく)  
  requests  
  beautifulsoup4  
- csv
-- [ ] Scrapingサイトデータを取得
-- [ ] csvに書き出す(テスト)
+ csv（インストール不要で使える）
+- [x] Scrapingサイトデータを取得
+- [x] csvに書き出す(テスト)
 - [ ] スプレットシートに書き出し
  
