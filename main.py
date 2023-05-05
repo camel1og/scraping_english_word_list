@@ -21,7 +21,7 @@ tds = []#取得データを最後に格納する変数
 
 #スプレットシート接続
 workbooks = ssWrite.accessSpleadSheet()
-worksheet = workbooks.worksheet('シート1')
+worksheet = workbooks.worksheet('中学一年生単語一覧')
 i = 2
 
 for trs in table.find_all('tr'):#for文で英単語を取得

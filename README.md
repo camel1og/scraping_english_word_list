@@ -3,6 +3,8 @@
 - [x] 必要なライブラリをpipインストール(つど更新していく)  
  requests  
  beautifulsoup4  
+ oauth2client  
+ oauth2client  
  csv（インストール不要で使える）
  time（インストール不要で使える）
 - [x] Scrapingサイトデータを取得
