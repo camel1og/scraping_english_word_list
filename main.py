@@ -29,17 +29,3 @@ for trs in table.find_all('tr'):#for文で英単語を取得
     worksheet.update_cell(i,1, trs.find_all("td")[0].text)
     worksheet.update_cell(i,2, trs.find_all("td")[1].text)
     i += 1
-    # td = {}#tdのデータを辞書型で格納
-
-
-    # td["英単語"] = trs.find_all("td")[0].text
-    # td["日本語"] = trs.find_all("td")[1].text
-    # tds.append(td)
-
-
-# with open("English_Word.csv", "w", newline= "") as f:
-#     field_name = ["英単語","日本語"]
-#     writer = csv.DictWriter(f, fieldnames = field_name)
-#     writer.writeheader()
-#     writer.writerows(tds)
-    
